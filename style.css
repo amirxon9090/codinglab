@@ -5,8 +5,7 @@ body {
     background-size: cover;
     background-position: center center;
     background-image: url(https://pin.it/7hf8RXqce
-    )
-                                            
+)
 }
 
 ul {
@@ -25,7 +24,7 @@ li:hover {
     border-radius: 10px;
     transition: 500ms;
 }
-    
+
 li {
     float: right;
 }
@@ -37,6 +36,30 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 15px;
+}
+
+a:link {
+    color: chocolate;
+    text-decoration: none;
+}
+
+li>ul {
+    display: none;
+}
+
+li:hover ul {
+    display: block;
+    position: absolute;
+    left: 1500px;
+    background-color: green;
+    margin-top: 0px;
+    margin-left: -20px;
+    margin-right: 250px;
+}
+
+li:hover ul li a:link {
+    display: block;
+    margin-left: -30px;
 }
 
 .Cod {
@@ -73,62 +96,49 @@ li a {
     background: url();
     margin: 10px;
 }
-.birinchi:hover{
+
+.birinchi:hover {
     background-color: rgb(136, 128, 128);
     color: black;
     font-size: 15px;
     transition: 500ms;
 }
-.ikkinchi:hover{
+
+.ikkinchi:hover {
     background: url();
     font-size: 15px;
     transition: 500ms;
     color: white;
 }
-.grid-container button{
-margin: 30px;
+
+.grid-container button {
+    margin: 30px;
 }
-.grid-container{
- padding-top: 40px;
- display: grid;
- grid-template-columns:   25% 25% 25% 25% ;
- gap: 15px;
+
+.grid-container {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 15px;
 }
-.grid-container img{
+
+.grid-container img {
     padding-top: 15px;
     height: 200px;
-    margin-top: 10px;
-    margin-right: 200px;
-    margin-left: 50px;
-
 }
-.grid-container button:hover{
+
+.grid-container button:hover {
     background-color: red;
     color: aliceblue;
-} 
+}
 
-.grid-container img:hover {
-    height: 230px;
-    transition: 500ms;
+body {
+    margin: auto;
 }
-.grid-container p:hover{
-    font-size: 20px;
-    transition: 500ms;
-}
-.grid-container h2:hover{
-    font-size: 28px;
-    transition: 500ms;
-}
-.grid-container button:hover{
-    font-size: 15px;
-    transition: 500ms;
-    background-color: blue;
-    color: white;
-    border-color: blue;
-}
-.banner1{
-    margin-top: 25px;
-    margin-left: 100px;
-    margin-right: 130px;
-    margin-bottom: 500px;
+
+nav {
+    display: block;
+    position: absolute;
+    top: 0;
+    background-color: skyblue;
 }
