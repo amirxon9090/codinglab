@@ -5,15 +5,23 @@ body {
     background-size: cover;
     background-position: center center;
     background-image: url(https://pin.it/7hf8RXqce)
-    
-   }
+}
 
 h1 {
 
-font-size: 60px;
-font-family: Georgia, serif;
+    font-size: 60px;
+    font-family: Georgia, serif;
 }
 
+nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    background-color: #585353;
+    width: 100%;
+    
+    
+}
 
 
 .Cod {
@@ -21,7 +29,7 @@ font-family: Georgia, serif;
     color: white;
     padding-top: 10px;
     font-size: 25px;
-    
+
 
 }
 
@@ -70,10 +78,10 @@ font-family: Georgia, serif;
 }
 
 .grid-container {
-    
+
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    
+
     padding: 40px 25px 1000px 25px;
 }
 
@@ -87,36 +95,33 @@ font-family: Georgia, serif;
     color: aliceblue;
 }
 
-body {
-    margin: auo;
-}
 
-nav {
-    display: block;
-    position: absolute;
-    top: 0;
-    background-color: #585353;
-}
-li:hover ul li{
+
+
+
+li:hover ul li {
     color: blue;
     border-radius: 4px;
     transition: 500ms;
 }
-a:hover{
+
+a:hover {       
     border-radius: 4px;
     transition: 500ms;
     color: orange;
-    font-size: 16px;
+    font-size: 15.1px;
 }
-ul li ul li{
-    
+
+ul li ul li {
+
     padding: 0px 15px 0px 15px;
-   
+
     margin-left: 2px;
     margin-right: 2px;
-   
+
     float: none;
 }
+
 ul {
 
     list-style-type: none;
@@ -127,16 +132,17 @@ ul {
     padding-right: px;
     font-family: Verdana, sans-serif;
     font-size: 14px;
+   
 
 
 }
 
 li:hover {
-   
+
     border-radius: 4px;
     transition: 500ms;
     color: orange;
- 
+
 }
 
 li {
@@ -164,19 +170,27 @@ li>ul {
 li:hover ul {
     display: inline-block;
     position: absolute;
-    
+
     background-color: rgb(63, 56, 56);
-    
+
 }
 
-li:hover ul li a:link {
-    display: block;
-   
+
+
+ul li ul {
+
+    margin: 0px 0px 0px -53px;
 }
-ul li ul{
-   
-    margin: 0px 0px 0px -53px;   
+
+
+footer h2{
+    background-color: rgb(63, 56, 56);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 500px;
+    bottom: 0px;
+    width: 100%;;
+
+
 }
-    h3{
-        width: 50px;
-    }
